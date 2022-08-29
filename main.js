@@ -2,10 +2,10 @@ let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
-    if(mySrc === '/https://drive.google.com/file/d/1Wnoe96up2Xj_0DKqr3-LmQg7GDdpq2Rb/view?usp=sharing') {
-      myImage.setAttribute ('src','https://drive.google.com/file/d/1A0TRcAxE8WnTWKzh_JwNJaTli0QZiZYq/view?usp=sharing');
+    if(mySrc === '/Users/molchanovagalina/firefox-icon.png') {
+      myImage.setAttribute ('src','/Users/molchanovagalina/firefox2.png');
     } else {
-      myImage.setAttribute ('src','/https://drive.google.com/file/d/1Wnoe96up2Xj_0DKqr3-LmQg7GDdpq2Rb/view?usp=sharing');
+      myImage.setAttribute ('src','/Users/molchanovagalina/firefox-icon.png');
     }
 }
 
